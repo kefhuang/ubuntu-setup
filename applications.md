@@ -20,3 +20,11 @@ https://www.virtualbox.org/wiki/Linux_Downloads
 
 ## Synergy
 https://symless.com/synergy/download
+
+## Chinese Pinyin Input
+```
+sudo apt install ibus-pinyin
+ibus restart
+ibus-setup
+```
+In settings, install Chinese Language and add Input Source
