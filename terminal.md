@@ -68,3 +68,6 @@ git config --global user.name "t1mkhuan9"
 git config --global user.email "timkhuang@icloud.com"
 git config --global credential.helper store
 ```
+
+## CUDA
+Install the lastest the driver from Software and Updates
