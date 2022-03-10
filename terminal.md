@@ -67,6 +67,7 @@ sudo apt install git
 git config --global user.name "t1mkhuan9"
 git config --global user.email "timkhuang@icloud.com"
 git config --global credential.helper store
+git config --global core.editor "vim"
 ```
 
 ## CUDA
