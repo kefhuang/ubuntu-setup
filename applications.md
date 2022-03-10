@@ -49,3 +49,8 @@ ibus restart
 ibus-setup
 ```
 In settings, install Chinese Language and add Input Source
+
+## VLC
+```
+sudo snap install vlc
+```
