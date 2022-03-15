@@ -85,3 +85,10 @@ sudo apt-get -y install cuda-toolkit-11-6
 Add `export PATH="/usr/local/cuda-11.6/bin:$PATH"` and
 `export LD_LIBRARY_PATH="/usr/local/cuda-11.6/lib64:$LD_LIBRARY_PATH"` to `.bashrc` or `.zshrc`
 if `nvcc` is not found.
+
+## SSH
+```
+sudo apt install openssh-server
+sudo systemctl restart ssh
+sudo systemctl enable ssh
+```
