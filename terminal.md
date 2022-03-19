@@ -92,3 +92,18 @@ sudo apt install openssh-server
 sudo systemctl restart ssh
 sudo systemctl enable ssh
 ```
+
+## Conda
+```
+sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+```
+Download https://www.anaconda.com/products/individual/download-success-2
+```
+bash ~/Downloads/Anaconda3-2020.02-Linux-x86_64.sh
+```
+Choose no when ask to init
+```
+eval "$(/home/t1mkhuan9/Softwares/anaconda/bin/conda shell.zsh hook)"
+conda init zsh
+conda config --set auto_activate_base false
+```
