@@ -107,3 +107,8 @@ eval "$(/home/t1mkhuan9/Softwares/anaconda/bin/conda shell.zsh hook)"
 conda init zsh
 conda config --set auto_activate_base false
 ```
+
+## Latex
+```
+sudo apt install texlive-full
+```
