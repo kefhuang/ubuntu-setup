@@ -60,3 +60,16 @@ sudo apt install vlc
 sudo apt install lsb
 ```
 http://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=EN&CN2=&DSCMI=134381&DSCCHK=9edfca27f0a940d9e3f3156a3d46047ffbfe6d79
+
+## Zotero
+https://www.zotero.org/download/
+```
+mkdir ~/Softwares/zotero
+cd ~/Softwares/zotero
+x ~/Downloads/Zotero-6.0.5_linux-x86_64.tar.bz2
+cd Zotero_linux-x86_64
+./set_launcher_icon
+ln -s ~/Softwares/zotero/Zotero_linux-x86_64/zotero.desktop ~/.local/share/applications/zotero.desktop
+```
+Sync Guide: https://zhuanlan.zhihu.com/p/31453719
+Better bibtex: https://retorque.re/zotero-better-bibtex/installation/
